@@ -34,7 +34,9 @@ const Navbar = () => {
             }
         >
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Image src={logo} alt="Logo" width="75" height="50" />
+                <Link href="/">
+                    <Image src={logo} alt="Logo" width="75" height="50" />
+                </Link>
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/#home">
