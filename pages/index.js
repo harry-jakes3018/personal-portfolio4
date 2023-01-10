@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/About";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 // import { Inter } from "@next/font/google";
@@ -25,6 +26,7 @@ export default function Home() {
 
             <Navbar />
             <Main />
+            <About />
         </>
     );
 }
